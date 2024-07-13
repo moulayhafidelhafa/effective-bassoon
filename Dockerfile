@@ -8,9 +8,10 @@ FROM    ubuntu:20.04
 
 # Give label for your docker file 
 LABEL description="This is my first image"
+      maintainer="elhafa hafid"
 
 # Give maintainer info 
-MAINTAINER "farrukh sadykov"
+MAINTAINER "elhafa hafid"
 
 # install telnet     
 RUN     apt-get update -y            
